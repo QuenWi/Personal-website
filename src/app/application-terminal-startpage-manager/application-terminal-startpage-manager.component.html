@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="../../styles.scss">
+
+<p class="standard_layout_headline">Startpage manager:</p>
+     
+<div class="standard_layout_left_side_text"> 
+
+    <div class="standard_layout_text_area">
+    <p>Each of us uses certain websites very often. For that reason, I created a program that allows me to create and edit my own personalized start page.</p>
+    <p>In the program you can add headlines and links to your start page. Both of them you can give an daily time restriction.</p>
+    <p>The user can manage the start page with an easy terminal application, allowing you to effortlessly add, modify, or remove links as your interests evolve.</p>
+    <p>I recommend making the created webpage your start page. It is very useful for daily usage.</p>
+
+    <div class="radio_button_select_image_area">
+        <label>
+            <input type="radio" (click)="changeImage('1')" name="imageOption" checked="checked" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 1: Showing an example startpage.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('2')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 2: Menue of the programm and showing list of headlines and links.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('3')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 3: Showing list after adding one element.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('4')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 4: Showing the example startpage after adding.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('5')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 5: Changing the added elements time.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('6')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 6: Showing the example startpage at 9 o'clock. (added element deactivated)</div>
+        </label>
+    </div>
+
+    <p class="ListElements_Link" style="padding-top: 20px;">Code available on: <a class="link1" href="https://github.com/QuenWi/StartpageManager" target="_blank">Github Link</a>
+        <p>The program is a .Net Visual Studio project.</p>
+        <p class="ListElements_Link" style="margin-top: 25px; margin-bottom: 10px">Here is a short video demonstration of the programm:
+        <br>(To watch the video in HD, I recommand watching it on 
+        <a class="link1" href="https://www.youtube.com/watch?v=8Ij_VyR2vwA" target="_blank">youtube</a> itself)</p>
+        <iframe width="728" height="410" src="https://www.youtube.com/embed/8Ij_VyR2vwA?si=_QK6ZDofh72AWDVt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+    </div> 
+</div>
+
+<div class="standard_layout_right_side_image"> 
+    <img class="standard_layout_image" id="image" src="../../assets/Images/Application_Terminal_Startpage_Manager/1.png">
+</div>
+

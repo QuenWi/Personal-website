@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="../../styles.scss">
+
+<p class="standard_layout_headline">ToDo-List:</p>
+     
+<div class="standard_layout_left_side_text"> 
+
+    <div class="standard_layout_text_area">
+    <p>To keep your head empty, it can help to export thoughts/To-Does to a list. That's why I created a to-do list, which I start by booting Windows.</p>
+    <p>My goals were to create an easy-to-use and fast to-do list. For that, I only added minimalistic functionality The program has everything you need and not more.
+        Therefore, everyone, no matter their situation, can use it without any introduction.</p>
+    <p>I personally recommend adding this program as a startup application. This way, you can make the most of its features.</p>
+    <p>The user can add ToDos with or without priority, move ToDos around and remove them.</p>
+
+    <div class="radio_button_select_image_area">
+        <label>
+            <input type="radio" (click)="changeImage('1')" name="imageOption" checked="checked" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 1: The first image of an example run. The starting point.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('2')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 2: The example run after adding a ToDo without priority.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('3')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 3: The example run after adding a ToDo with priority.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('4')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 4: The example run after moving ToDoes around.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('5')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 5: The example run after removing ToDoes.</div>
+        </label>
+    </div>
+
+    <p class="ListElements_Link" style="padding-top: 20px;">Code available on: <a class="link1" href="https://github.com/QuenWi/ToDo-List" target="_blank">Github Link</a>
+    <p>The program is a .Net Visual Studio project.</p>
+    
+    </div> 
+</div>
+
+<div class="standard_layout_right_side_image"> 
+    <img class="standard_layout_image" id="image" src="../../assets/Images/Application_FullStack_FrontEnd_ToDo_List/1.png">
+</div>
+
+

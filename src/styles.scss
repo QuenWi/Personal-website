@@ -1,0 +1,97 @@
+
+body{
+    margin: 0;
+    background-color: rgba(54, 120, 181, 0.86);
+}
+
+.List_Headline{
+    margin-bottom: 40px;
+}
+
+.List_Border{
+    margin-left: 6px;
+}
+
+.ListElements_Text{
+    margin-top:  25px;
+}
+
+.ListElements_Link a{
+    color: orange;
+}
+
+.ListElements_Link a:hover{
+    color: red;
+}
+
+.radio_button_select_image_area{
+    width: 95%;
+}
+
+.radio_button_select_image_button{
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    float: left;
+    accent-color: black;
+}
+
+.radio_button_select_image_text{
+    display: inline;
+}
+
+.standard_layout_headline{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.standard_layout_left_side_text{
+    width: 55%;
+    margin-right: 20px;
+    float:left;
+}
+
+.standard_layout_text_area{
+    margin-bottom: 40px;
+}
+
+.standard_layout_right_side_image{
+    width: 43%;
+    float: right;
+}
+
+.standard_layout_image{
+    width: 100%;
+    float: right;
+}
+
+.standard_layout_left_side_text_alt{
+    width: 65%;
+    margin-right: 20px;
+    float:left;
+}
+
+.standard_layout_right_side_image_alt{
+    width: 30%;
+    float: right;
+}
+
+.standard_layout_image_alt{
+    width: 90%;
+    float: right;
+}
+
+.BigFive_Border{
+    border-style: solid; 
+    border-width: 7px; 
+    border-color: #10b595; 
+    margin-top: 20px;
+}
+
+.BigFive_Text{
+    float: none;
+    margin-bottom:  6px;
+    margin-top:  6px;
+    margin-left:  8px;
+}
+

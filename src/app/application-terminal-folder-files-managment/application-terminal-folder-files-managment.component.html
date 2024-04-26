@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="../../styles.scss">
+
+<p class="standard_layout_headline">Folder-Files managment:</p>
+     
+<div class="standard_layout_left_side_text"> 
+
+    <div class="standard_layout_text_area">
+    <p>In every operating system, you only have a certain way to rename a bunch of files
+        I wanted to rename every file with a certain given value like lastWriteTime/lastAccessTime/creationTime. 
+        By renaming the files in this certain way, they are displayed in every operating system in the same order.</p>
+    <p>This program is renaming in every subfolder all the files after the folder. Furthermore, this program includes option for a blacklist and an option to link all new files.</p>
+    <p>Also, this program has some protection to not accidentally delete files. If a file can't be renamed, then this program runs in troubleshooting mode.</p>
+    <p>As a protection to only allow renaming files in certain folders, the user has to set up a folder first.
+        If the program runs for the first time on a new folder, then it asks the user if he/she wants to set up the folder.
+        Then two additional folders for new files (000NewFiles) and a folder for logs (000FolderFilesManagement) are created.</p>
+
+    <div class="radio_button_select_image_area">
+        <label>
+            <input type="radio" (click)="changeImage('1')" name="imageOption" checked="checked" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 1: The menue after selecting a folder. Here the folder was set up before.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('2')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 2: It shows the folder which I choosed after setup.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('3')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 3: Files in a subfolder unsorted.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('4')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 4: Files in a subfolder sorted.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('5')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 5: Newest files liked/copied.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('6')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 6: Blacklist and Logs.</div>
+        </label>
+    </div>
+
+    <p class="ListElements_Link" style="padding-top: 20px;">Code available on: <a class="link1" href="https://github.com/QuenWi/FolderFilesManagment" target="_blank">Github Link</a>
+    <p>The program is a .Net Visual Studio project.</p>
+        <p style="margin-top: 25px; margin-bottom: 10px" class="ListElements_Link">Here is a short video demonstration of the programm:
+            <br>(To watch the video in HD, I recommand watching it on 
+        <a href="https://www.youtube.com/watch?v=rsqdBtsNk0k" target="_blank">youtube</a> itself)</p>  
+        <iframe width="728" height="410" src="https://www.youtube.com/embed/rsqdBtsNk0k?si=ZZFIFC7Yos3DK-vm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div> 
+
+</div>
+
+<div class="standard_layout_right_side_image"> 
+    <img class="standard_layout_image" id="image" src="../../assets/Images/Application_Terminal_Folder_Files_Managment/1.png">
+</div>
+

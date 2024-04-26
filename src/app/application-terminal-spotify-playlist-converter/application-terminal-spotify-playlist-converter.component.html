@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="../../styles.scss">
+
+<p class="standard_layout_headline">Spotify playlist converter:</p>
+     
+<div class="standard_layout_left_side_text"> 
+
+    <div class="standard_layout_text_area">
+    <p>Whenever you have a public playlist, you can use the program to save the titles of the playlist in a .csv file.</p>
+    <p>Furthermore, you can save private playlists by making them for a few minutes public.</p>
+    <p>The application gets all titles from a public playlist and saves all the song names and their artist in a file.</p>
+    <p>This is perfect for creating a backup of public playlists. Furthermore, you can create other programs that use this file.</p>
+    <p>The user only has to input the link to a public playlist and a folder to save the .csv file.</p>
+
+    <div class="radio_button_select_image_area">
+        <label>
+            <input type="radio" (click)="changeImage('1')" name="imageOption" checked="checked" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 1: Shows an example run.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('2')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 2: Shows an example spotify playlist.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('3')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 3: The corresponding part of the .csv file.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('4')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 4: The file information in Windows OS.</div>
+        </label>
+    </div>
+
+    <p class="ListElements_Link" style="padding-top: 20px;">Code available on: <a class="link1" href="https://github.com/QuenWi/Spotify-Playlist-Converter" target="_blank">Github Link</a>
+        <p>The program is a .Net Visual Studio project. You only have to add in the script you spotify developer key.</p>
+    </div> 
+</div>
+
+<div class="standard_layout_right_side_image"> 
+    <img class="standard_layout_image" id="image" src="../../assets/Images/Application_Terminal_Spotify_Playlist_Converter/1.png">
+</div>
+
