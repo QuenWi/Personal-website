@@ -4,51 +4,72 @@
 
 <div class="standard_layout_left_side_text_alt">
 
-    <p style="font-size: 22px;"><u>About me:</u></p>
-    <p style="margin-bottom: 50px;">Name: Wilkes Quentin
-        <br>Vocation: programming and engineering
-        <br>Fluent in: German and English
-    </p>
     <p style="font-size: 22px;"><u>About the website</u>:</p>
     <p style="margin-bottom: 50px;">This website serves the purpose of introducing me as a developer. 
         Here you can find programming examples, programming-related information, contact links and more.
         This website was created using AngularJS.
     </p>
 
-    <p style="font-size: 22px;"><u>Introduction of myself</u>:</p>
-    I'm currently a student enrolled at the University Duisburg-Essen studying Computer Engineering B.Sc ISE, 
-    where I'm acquiring a deep understanding of software development, algorithms, hardware systems, engineering and everything in between.
-    <br>My fascination with coding began during my earlier years and it has grown into a profound passion that drives me to continually learn and 
-    explore the ever-evolving world of programming.
-    <p>In 2014 I started my programming journey with an Udemy course about website creation (HTML, CSS, JavaScript).
-    <br>One year later I continued by taking a Udemy course about Unity game development. 
-    <br>From there on, I set my focus in life to learn as much about computer engineering and science as possible.
-    Over time, I acquired a lot of programming skills by actively programming and theoretical knowledge.
+    <p style="font-size: 22px;"><u>About me:</u></p>
+    <p>Name: Wilkes Quentin
+        <br>Vocation: programming and engineering
+        <br>Fluent in: German and English
+    </p>
 
-    <p style="margin-top: 40px;">The best way to describe myself are probably my goals in life and my most important characteristics:</p>
+    <div class="faq" style="margin-top: 50px;">
 
-    <div class="BigFive_Border">
-        <div class="BigFive_Text">My goals in life:</div>
-        <div class="BigFive_Text"><b></b></div>
-        <p class="BigFive_Text">-Computer engineering expert: Since childhood, I'm interested in programming and other computer related topics. Therefore I'm visiting additional lectures in my university and I will write my bachelor's thesis about AI unsupervised learning.</p>
-        <p class="BigFive_Text">-Eustress and Strength training: Serve as foundations for efficiency, I'm keeping myself fit. Furthermore, I'm looking forward for sports challenges such as running a marathon.</p>
-        <p class="BigFive_Text">-Reading books: I'm a fan of reading books written by experts with years of experience, because they offer valuable skills. My goal is to read daily a minimum of 30 pages and 40 minutes.</p>
-        <p class="BigFive_Text">-Knowledge: Similar to acquiring knowledge and skills  through books, I also want to stay updated on natural sciences. Since a young age I've interest in physics, math and engineering. This includes learning about current inventions, learning about the functionality of devices and machines, and more.</p>
-        <p class="BigFive_Text">-Enjoyment: The best ideas and results come when you believe in what you do in life. That's why I chose to become a programmer. I find joy in programming and learning about computers, softwares, applications and everything else.</p> 
+        <a (click)="showAnswer('1')"><div class="questionText"><u>Introduction of myself</u> <span class="questionArrow" id="questionArrow1">△</span></div></a>
+        <div class="answer" id="answer1"><p>
+            I'm currently a student enrolled at the University Duisburg-Essen studying Computer Engineering B.Sc ISE, 
+            where I'm acquiring a deep understanding of software development, algorithms, hardware systems, engineering and everything in between.
+            <br>My fascination with coding began during my earlier years and it has grown into a profound passion that drives me to continually learn and 
+            explore the ever-evolving world of programming.
+            <p>In 2014 I started my programming journey with an Udemy course about website creation (HTML, CSS, JavaScript).
+            <br>One year later I continued by taking a Udemy course about Unity game development. 
+            <br>From there on, I set my focus in life to learn as much about computer engineering and science as possible.
+            Over time, I acquired a lot of programming skills by actively programming and theoretical knowledge. 
+        </p></div>
+
+        <a (click)="showAnswer('2')"><div class="questionText"><u>What means programming for me:</u><span class="questionArrow" id="questionArrow2">△</span></div></a>
+        <div class="answer" id="answer2"><p> 
+            One of my goals in life is, to become the best programmer. While it seems like an ambisious goal, the most important is, that I've fun on the path towards it.
+            Meaning that reaching the goal is less important. I rather want to improve daily and make myself a name as a programmer.
+            <br>For me, programming is like a game. You have a task, which is your goal. Every coding challange is like a puzzle.
+            By solving previous programming challanges, you gain knowledge, which helps you to preced further. 
+            Depending on the task, a veriety of programming skills/knowledge (dynamic programming, bit manipulation, ...) is usefull.
+            To gain skills in these areas, you can learn the theorie, gain experience or else.
+            All of these aspects you also have in games, pysical or psychological. For example in soccar you have different situation
+            like (defense, attack, etc.) and a variety of skills (passes, running, etc.). Or in chess you can learn taktics and schemas, to make taktical decisions.
+            The same is the case for programming. Recognizing patterns, gaining knowledge/tools, having taktical sense and more is, what makes programming a passion of mine.</p>
+            <p>Thats why on a daily bases I solve programming challanges on Leetcode. I attempt the daily challanges and compete in contests (Leetcode-Biweekly).
+            Furthermore, I solve additional questions and programm in multiple languages (Java, C++, C#, Python, ...). My daily average is at 5 challanges per day.
+            <br>I'm very proud of my profile, so please take a look: 
+            <span class="ListElements_Link"><a href="https://leetcode.com/u/QuentinW_Dev/" target="_blank">LeetCode-Profile</a></span> </p>
+        </div>
+
+        <a (click)="showAnswer('3')"><div class="questionText"><u>What are my goals in life:</u><span class="questionArrow" id="questionArrow3">△</span></div></a>
+            <div class="answer" id="answer3"><p> 
+                -First, Becoming the best programmer on the world:
+                <br>I want to become the best progrmammer in the world. For that I'm daily attempting programming challanges. And weekly competing in competitions.
+                It is important, to become the best programmer possible, rather than the best. So if I'm not becoming the best, that is okey.
+                I enjoy the competition and challanges on my path. But the goal still is to become the best.
+                <br><br>
+                -Second, Running an ultramarathon:
+                <br>Daily, I'm neither doing strength training or running. I want to push my body to its Limit. Shifting the limit further and further.
+                Lifting weights and running far distances is a hobby of mine, which challanges me on a daily basis. My goal is to complete a 100km run.
+                <br><br>
+                -Third, Reading 36 books a year:
+                <br>Each day I read about 30 pages or 45 minutes. Normally non-fictional based books, with the intention of sharing knowledge.
+                Gaining other persons perspective, with years of experience helps me optimizing my daily life. 
+                Also, I'm a curious personallity and want to understand every aspect in life.
+                </p>
+            </div>
     </div>
-    
-    <div class="BigFive_Border">
-        <div class="BigFive_Text"></div>
-        <div class="BigFive_Text">My most important characteristics are:</div>
-        <p class="BigFive_Text">-Curiosity: I love a challenge. I acquire valuable skills through active experimentation and theoretical research.</p>
-        <p class="BigFive_Text">-Optimism: For optimal performance and satisfaction, it is important to stay calm and always believe in your abilities.</p>
-        <p class="BigFive_Text">-Never Surrender: You learn from mistakes. For me, it is important to always get up after a fall. You only lose if you give up or don't even try something.</p>
-    </div>
 
-</div>
+</div> 
 
 <div class="standard_layout_right_side_image_alt">
-    <img class="standard_layout_image_alt" src="../../assets/Images/AboutMe/AboutMe_Image_Runterskalliert.png">
+    <img class="standard_layout_image_alt" src="../../assets/Images/AboutMe/AboutMeImage.jpg" style="border-radius: 60px/100px">
 </div>
 
 <img style="width: 105%; padding-top: 20px; margin-left: -20px; margin-bottom: -42px;" src="../../assets/Images/AboutMe/Panorama_Runterskalliert.jpg">

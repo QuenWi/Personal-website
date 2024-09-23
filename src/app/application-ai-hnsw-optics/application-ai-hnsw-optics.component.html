@@ -1,1 +1,67 @@
-<p>This will be my next project. I already designed an algorithm and now have to implement it. Furthermore I'll build a documentation, so everyone can use this algorithm.</p>
+<link rel="stylesheet" href="../../styles.scss">
+
+<p class="standard_layout_headline">AI HNSW OPTICS:</p>
+     
+<div class="standard_layout_left_side_text"> 
+
+    <div class="standard_layout_text_area">
+    <p>In this project I implemented a HNSW powered OPTICS clustering algorithm.</p>
+    <p>The HNSW algorithm is used to approximate the nearest neighbors problem in a short runtime. 
+        <br>OPTICS is an AI unsupervised learning clustering algorithm. It is an extension of the DBSCAN algorithm.</p>
+    <p>The algorithm is very easy to use. A user just has to input a dataset, epsilon distance and minPts. 
+        These are the same parameter as for the standart OPTICS and DBSCAN algorithm.
+        In the first step, the user can see the dataset in a 2D plot. Then the algorithm creates a reachability plot.
+        The user can based on the reachability set a limit reachability for the groups forming clusters.
+        Based on the limit reachability the clusters than are formed.</p>
+    <p>With its runtime, the algorithm is a state-of-the-art clustering algorithm. 
+        As you can see in the example runs, the approximated clusters are often very precise.</p>
+    <p>The HNSW OPTICS is a: density based approximated nearest neighbors clustering algorithm.</p>
+
+    <div class="radio_button_select_image_area">
+        <label>
+            <input type="radio" (click)="changeImage('1')" name="imageOption" checked="checked" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 1: It shows the example dataset 1.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('2')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 2: Here we see the approximated reachability plot for dataset 1.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('3')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 3: This clusters of dataset 1 get formed with a limit reachability of 0.97.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('4')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 4: The code follows the rule of clean coding.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('5')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 5: It shows the example dataset 2.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('6')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 6: Here we see the approximated reachability pplot for dataset 2.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('7')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 7: This clusters of dataset 2 get formed with a limit reachability of 0.5.</div>
+        </label>
+    </div>
+
+    <p class="ListElements_Link" style="padding-top: 20px;">Code available on: <a class="link1" href="https://github.com/QuenWi/AI-HNSW-OPTICS" target="_blank">Github Link</a>
+    <p>The program is a Python application.</p>
+    </div> 
+
+</div>
+
+<div class="standard_layout_right_side_image"> 
+    <img class="standard_layout_image" id="image" src="../../assets/Images/Application_AI_HNSW_OPTICS/1.png">
+</div>
+
+
