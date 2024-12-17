@@ -21,6 +21,7 @@ import { ApplicationFullStackFrontEndDailyMathComponent } from './application-fu
 import { ApplicationTerminalFolderFilesManagmentComponent } from './application-terminal-folder-files-managment/application-terminal-folder-files-managment.component';
 import { ApplicationTerminalStartpageManagerComponent } from './application-terminal-startpage-manager/application-terminal-startpage-manager.component';
 import { ApplicationTerminalSpotifyPlaylistConverterComponent } from './application-terminal-spotify-playlist-converter/application-terminal-spotify-playlist-converter.component';
+import { LeetcodeComponent } from './leetcode/leetcode.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ApplicationTerminalSpotifyPlaylistConverterComponent } from './applicat
     ApplicationFullStackFrontEndDailyMathComponent,
     ApplicationTerminalFolderFilesManagmentComponent,
     ApplicationTerminalStartpageManagerComponent,
-    ApplicationTerminalSpotifyPlaylistConverterComponent
+    ApplicationTerminalSpotifyPlaylistConverterComponent,
+    LeetcodeComponent
   ],
   imports: [
     BrowserModule,
