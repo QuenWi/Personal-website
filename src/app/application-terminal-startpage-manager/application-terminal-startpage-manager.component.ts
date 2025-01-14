@@ -14,6 +14,6 @@ export class ApplicationTerminalStartpageManagerComponent {
   changeImage(imgNr:string):void
   {
     const img = (<HTMLImageElement>document.getElementById('image'));
-    img.src = "../../assets/Images/Application_Terminal_Startpage_Manager/" + imgNr + ".png";
+    img.src = "../../assets/Images/Application_Terminal_Startpage_Manager/" + imgNr + ".jpg";
   }
 }

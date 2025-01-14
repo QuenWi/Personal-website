@@ -17,6 +17,9 @@ import { ApplicationTerminalFolderFilesManagmentComponent } from './application-
 import { ApplicationTerminalStartpageManagerComponent } from './application-terminal-startpage-manager/application-terminal-startpage-manager.component';
 import { ApplicationTerminalSpotifyPlaylistConverterComponent } from './application-terminal-spotify-playlist-converter/application-terminal-spotify-playlist-converter.component';
 import { LeetcodeComponent } from './leetcode/leetcode.component';
+import { EmbeddedSystemComponent } from './embedded-system/embedded-system.component';
+import { EmbeddedSystemAnalogSensorAnalysisComponent } from './embedded-system-analog-sensor-analysis/embedded-system-analog-sensor-analysis.component';
+import { EmbeddedSystemSchedulerPriorityQueueComponent } from './embedded-system-scheduler-priority-queue/embedded-system-scheduler-priority-queue.component';
 
 const routes: Routes = [
   {
@@ -86,6 +89,18 @@ const routes: Routes = [
   {
     path: 'LeetCode',
     component: LeetcodeComponent
+  },
+  {
+    path: 'Application_Embedded_Systems',
+    component: EmbeddedSystemComponent
+  },
+  {
+    path: 'Application_Embedded_Systems_Analog_Sensor_Analysis',
+    component: EmbeddedSystemAnalogSensorAnalysisComponent
+  },
+  {
+    path: 'Application_Embedded_Systems_Scheduler_Priority_Queue',
+    component: EmbeddedSystemSchedulerPriorityQueueComponent
   },
 ];
 

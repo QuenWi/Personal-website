@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="../../styles.scss">
+
+<p class="standard_layout_headline">Embedded Systems Analog Sensor Analysis:</p>
+     
+<div class="standard_layout_left_side_text"> 
+
+    <div class="standard_layout_text_area">
+    <p>In this project I create a scheduler for the ATmega328. The scheduler uses a priority queue to manage tasks.</p>
+    <p>I'm using the ATmega328P and the AVR-GCC cross compiler. For visualisation of the data, I used pyhton.</p>
+        <p>Connected to the ATmega328P is a photoresistor. In this programm, I send multiple ADC values via UART to my computer.
+            My computer than creates a graph, which plots the ADC values. By this you can test the sensor and use the values to create in further projects.</p>
+            <p> At Image 3 we can see the influence of a smartphone light on the photoresistor and what happens when my hand covers the registor.
+                This can now be used to implement functionality, based on the sensor data.</p>
+
+    <div class="radio_button_select_image_area">
+        <label>
+            <input type="radio" (click)="changeImage('1')" name="imageOption" checked="checked" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 1: It shows the complete setup.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('2')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 2: Here we see the arduino and photoresistor.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('3')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 3: Thats the graph, which shows the ADC values at different times.</div>
+        </label>
+    </div>
+</div>
+
+</div>
+
+<div class="standard_layout_right_side_image"> 
+    <img class="standard_layout_image" id="image" src="../../assets/Images/Application_Embedded_Systems_Analog_Sensor_Analysis/1.jpg">
+</div>
+
+

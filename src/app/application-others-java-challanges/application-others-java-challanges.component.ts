@@ -14,6 +14,6 @@ export class ApplicationOthersJavaChallangesComponent {
   changeImage(imgNr:string):void
   {
     const img = (<HTMLImageElement>document.getElementById('image'));
-    img.src = "../../assets/Images/Application_Other_Java_Challanges/" + imgNr + ".png";
+    img.src = "../../assets/Images/Application_Other_Java_Challanges/" + imgNr + ".jpg";
   }
 }

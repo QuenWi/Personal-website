@@ -14,6 +14,6 @@ export class ApplicationTerminalFolderFilesManagmentComponent {
   changeImage(imgNr:string):void
   {
     const img = (<HTMLImageElement>document.getElementById('image'));
-    img.src = "../../assets/Images/Application_Terminal_Folder_Files_Managment/" + imgNr + ".png";
+    img.src = "../../assets/Images/Application_Terminal_Folder_Files_Managment/" + imgNr + ".jpg";
   }
 }

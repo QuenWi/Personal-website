@@ -14,6 +14,6 @@ export class ApplicationFullStackFrontEndToDoListComponent {
   changeImage(imgNr:string):void
   {
     const img = (<HTMLImageElement>document.getElementById('image'));
-    img.src = "../../assets/Images/Application_FullStack_FrontEnd_ToDo_List/" + imgNr + ".png";
+    img.src = "../../assets/Images/Application_FullStack_FrontEnd_ToDo_List/" + imgNr + ".jpg";
   }
 }

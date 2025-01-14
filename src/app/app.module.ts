@@ -22,6 +22,9 @@ import { ApplicationTerminalFolderFilesManagmentComponent } from './application-
 import { ApplicationTerminalStartpageManagerComponent } from './application-terminal-startpage-manager/application-terminal-startpage-manager.component';
 import { ApplicationTerminalSpotifyPlaylistConverterComponent } from './application-terminal-spotify-playlist-converter/application-terminal-spotify-playlist-converter.component';
 import { LeetcodeComponent } from './leetcode/leetcode.component';
+import { EmbeddedSystemComponent } from './embedded-system/embedded-system.component';
+import { EmbeddedSystemSchedulerPriorityQueueComponent } from './embedded-system-scheduler-priority-queue/embedded-system-scheduler-priority-queue.component';
+import { EmbeddedSystemAnalogSensorAnalysisComponent } from './embedded-system-analog-sensor-analysis/embedded-system-analog-sensor-analysis.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { LeetcodeComponent } from './leetcode/leetcode.component';
     ApplicationTerminalFolderFilesManagmentComponent,
     ApplicationTerminalStartpageManagerComponent,
     ApplicationTerminalSpotifyPlaylistConverterComponent,
-    LeetcodeComponent
+    LeetcodeComponent,
+    EmbeddedSystemComponent,
+    EmbeddedSystemSchedulerPriorityQueueComponent,
+    EmbeddedSystemAnalogSensorAnalysisComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="../../styles.scss">
+
+<p class="standard_layout_headline">Embedded Systems Scheduler Priority Queue:</p>
+     
+<div class="standard_layout_left_side_text"> 
+
+    <div class="standard_layout_text_area">
+    <p>In this project I implemented an application ploting analog sensor data into a graph.</p>
+    <p>I'm using the ATmega328P and the AVR-GCC cross compiler.</p>
+    <p>In this project, I implemented a scheduler. The scheduler is based on a self implemented priority queue.
+        The priority queue runns tasks based on a time defined in seconds. For example if the time is 6, than the task will run at second 6 (the start time is 0).
+        <br> Because it uses a priority queue, it can efficiently get the next task and run it, if the timing is right.
+    <p>To test this scheduler, I implemented some tasks. One tasks just lets a LED blink, another one reads and ADC value, one tasks 
+        prints the entire current priority queue and another tasks adds new tasks to the priority queue.
+    <br>By that I could ensure the correctness of the scheduler.</p>
+    
+    <div class="radio_button_select_image_area">
+        <label>
+            <input type="radio" (click)="changeImage('1')" name="imageOption" checked="checked" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 1: It shows the complete setup.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('2')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 2: Here we see the arduino and photoresistor.</div>
+        </label>
+        <p></p>
+        <label>
+            <input type="radio" (click)="changeImage('3')" name="imageOption" class="radio_button_select_image_button">
+            <div class="radio_button_select_image_text">Image 3: Here we see the scheduler running. In the terminal it shows what task was done and the tasks result.</div>
+        </label>
+    </div>
+    </div>
+
+</div>
+
+<div class="standard_layout_right_side_image"> 
+    <img class="standard_layout_image" id="image" src="../../assets/Images/Application_Embedded_Systems_Scheduler_Priority_Queue/1.jpg">
+</div>
+
+

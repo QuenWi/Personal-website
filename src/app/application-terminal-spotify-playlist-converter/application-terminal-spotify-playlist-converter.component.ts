@@ -14,6 +14,6 @@ export class ApplicationTerminalSpotifyPlaylistConverterComponent {
   changeImage(imgNr:string):void
   {
     const img = (<HTMLImageElement>document.getElementById('image'));
-    img.src = "../../assets/Images/Application_Terminal_Spotify_Playlist_Converter/" + imgNr + ".png";
+    img.src = "../../assets/Images/Application_Terminal_Spotify_Playlist_Converter/" + imgNr + ".jpg";
   }
 }
